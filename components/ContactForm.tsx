@@ -57,7 +57,7 @@ export default function ContactForm({ showPhone = false }: Props) {
         </label>
       )}
       <label>
-        <span>Your message{req}</span>
+        <span>Your message{showPhone ? " (Optional)" : ""}</span>
            <p className="form-note">
   Please don’t include private health details in this form. Web forms and email aren’t a secure way to share clinical information. If you are in crisis, call or text 988 or go to your nearest emergency room.
 </p>
