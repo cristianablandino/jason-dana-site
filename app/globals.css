@@ -188,3 +188,14 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .article-body p { max-width: none; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+.page-hero, .contact-band, .cta-band { position: relative; isolation: isolate; }
+.page-hero::before, .contact-band::before, .cta-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.page-hero::before { background: url("/images/Rectangle 4.png") center / cover no-repeat; }
+.contact-band::before, .cta-band::before { background: url("/images/pattern-contact.png") center / cover no-repeat; }
