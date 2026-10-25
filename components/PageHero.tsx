@@ -11,7 +11,7 @@ type Props = {
 export default function PageHero({
   title,
   text,
-  primary = { label: "Schedule free consultation", href: "/contact" },
+  primary = { label: "Schedule free consultation", href: "/getting-started#contact" },
   secondary = { label: "My approach", href: "/my-approach" },
 }: Props) {
   return (
