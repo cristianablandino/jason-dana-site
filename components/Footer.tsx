@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Logo } from "./Icons";
+import { Facebook, Instagram, Logo, Substack } from "./Icons";
 import { footerColumns, site } from "@/lib/site";
 
 export default function Footer() {
