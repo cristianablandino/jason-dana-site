@@ -196,17 +196,19 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 .page-hero::before {
   background-image: url("/images/Pattern-hero.png");
   background-position: top right;
-  background-size: 260px auto;
+  background-size: 60% auto;
+  -webkit-mask-image: linear-gradient(to left, #000 30%, transparent 90%);
+  mask-image: linear-gradient(to left, #000 30%, transparent 90%);
 }
 .contact-band::before {
   background-image: url("/images/Pattern-contact.png");
   background-position: center;
-  background-size: 260px auto;
+  background-size: cover;
 }
 
 .contact-band { position: relative; isolation: isolate; }
