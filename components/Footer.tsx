@@ -16,6 +16,7 @@ export default function Footer() {
   <a href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook /></a>
 )}
             <a href={site.instagram} aria-label="Instagram" target="_blank" rel="noopener noreferrer"><Instagram /></a>
+          <a href={site.substack} aria-label="Substack" target="_blank" rel="noopener noreferrer"><Substack /></a>
           </div>
         </div>
         <div className="footer-cols">
