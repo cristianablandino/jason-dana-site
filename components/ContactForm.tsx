@@ -62,6 +62,9 @@ export default function ContactForm({ showPhone = false }: Props) {
       </label>
       {/* Honeypot: real visitors never see or fill this */}
       <input name="website" tabIndex={-1} autoComplete="off" className="hp" aria-hidden="true" />
+     <p className="form-note">
+  Please don’t include private health details in this form. Web forms and email aren’t a secure way to share clinical information. If you are in crisis, call or text 988 or go to your nearest emergency room.
+</p>
       <button type="submit" className="btn btn-primary block" disabled={status === "sending"}>
         {status === "sending" ? "Sending…" : "Send message"}
       </button>
