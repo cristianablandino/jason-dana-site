@@ -222,4 +222,4 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 }
 .aetna-logo { height: 25px; width: auto; margin: 0 auto; }
 
-.form-note { font-size: .9rem; color: var(--muted); margin: 0; max-width: none; line-height: 1.5; }
+.form-note { font-size: .5rem; color: var(--muted); margin: 0; max-width: none; line-height: 1.5; }
