@@ -188,3 +188,4 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .article-body p { max-width: none; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+@media (max-width: 640px) { .brand-mark { height: 56px; } }
