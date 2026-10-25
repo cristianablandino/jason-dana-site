@@ -3,6 +3,7 @@ export const site = {
   name: "Jason Dana LCSW",
   email: "", // e.g. "hello@jasondana.com"
   phone: "", // e.g. "(555) 123-4567"
+  facebook: "",
   instagram: "https://www.instagram.com/jasondanalcsw/",
 };
 
