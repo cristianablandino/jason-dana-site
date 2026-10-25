@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ContactForm from "@/components/ContactForm";
+import { images } from "@/lib/images";
 import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = { title: "About" };
