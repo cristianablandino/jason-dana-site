@@ -33,9 +33,12 @@ export default function GettingStarted() {
             <span>Standard session fee: $200</span>
             <span>Sliding scale available</span>
           </p>
-          <InNetworkBand />
         </section>
-
+      </div>
+      
+         <InNetworkBand />
+        <div className="wrap info-stack info-stack-after">
+          
         <section className="info-block" id="cancellation">
           <span className="icon-disc"><IconClock /></span>
           <h2>Cancellation Policy</h2>
