@@ -33,6 +33,7 @@ export default function GettingStarted() {
             <span>Standard session fee: $200</span>
             <span>Sliding scale available</span>
           </p>
+          <InNetworkBand />
         </section>
 
         <section className="info-block" id="cancellation">
@@ -44,7 +45,6 @@ export default function GettingStarted() {
         </section>
       </div>
 
-       <InNetworkBand />
       <ContactSection />
     </>
   );
