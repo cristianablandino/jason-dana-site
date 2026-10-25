@@ -21,8 +21,8 @@ export async function POST(req: Request) {
   const phone = clean(body.phone, 50);
   const message = clean(body.message);
 
-  if (!firstName || !lastName || !message || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return NextResponse.json({ error: "Please fill in your name, a valid email, and a message." }, { status: 400 });
+  if (!firstName || !lastName || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    return NextResponse.json({ error: "Please fill in your name and a valid email." }, { status: 400 });
   }
 
   const apiKey = process.env.RESEND_API_KEY;
