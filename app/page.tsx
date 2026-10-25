@@ -60,7 +60,7 @@ export default function Home() {
         <div className="network-inner">
           <div>
             <h2>In network</h2>
-            <p className="aetna" aria-label="Aetna"><span aria-hidden="true">♥</span>aetna</p>
+            <img src="/images/Aetna_logo_reg_rgb_vio.png" alt="Aetna" className="aetna-logo" />
           </div>
           <div>
             <h2>Out of network?</h2>
