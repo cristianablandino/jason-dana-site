@@ -45,7 +45,9 @@ export default function Header() {
             })}
           </ul>
           <div className="social">
-            <a href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook /></a>
+            {site.facebook && (
+  <a href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook /></a>
+)}
             <a href={site.instagram} aria-label="Instagram" target="_blank" rel="noopener noreferrer"><Instagram /></a>
           </div>
         </nav>
