@@ -32,7 +32,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <p className="copyright">© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
+      <p className="footer-inner copyright">© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
     </footer>
   );
 }
