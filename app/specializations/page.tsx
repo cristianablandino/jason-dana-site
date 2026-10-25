@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: "Specializations" };
 function Buttons() {
   return (
     <div className="btn-row">
-      <Link href="/contact" className="btn btn-primary">Book a free consultation</Link>
+      <Link href="/getting-started#contact" className="btn btn-primary">Book a free consultation</Link>
       <Link href="/my-approach" className="btn btn-secondary">My approach</Link>
     </div>
   );
