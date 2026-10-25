@@ -1,14 +1,6 @@
 export function Logo({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 60 70" fill="none" aria-hidden="true">
-      <path d="M31 6c11-4 21 7 19 24-2 17-13 28-24 25" stroke="#5A7357" strokeWidth="3" strokeLinecap="round" />
-      <path d="M31 6c-3 10-5 24-6 44" stroke="#5A7357" strokeWidth="3" strokeLinecap="round" />
-      <path d="M17 33l-5 21c-1 6-6 8-8 4" stroke="#5A7357" strokeWidth="2.5" strokeLinecap="round" />
-      <circle cx="17" cy="25" r="2.6" fill="#C9743F" />
-    </svg>
-  );
+  return <img src="/images/JD_logo.svg" alt="" className={className} />;
 }
-
 export function Facebook({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
