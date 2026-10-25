@@ -44,8 +44,8 @@ export default function GettingStarted() {
         </section>
       </div>
 
+       <InNetworkBand />
       <ContactSection />
-      <InNetworkBand />
     </>
   );
 }
