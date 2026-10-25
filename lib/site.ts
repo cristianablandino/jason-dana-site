@@ -1,8 +1,8 @@
 // Edit your details here. They are used across the whole site.
 export const site = {
   name: "Jason Dana LCSW",
-  email: "", // e.g. "hello@jasondana.com"
-  phone: "", // e.g. "(555) 123-4567"
+  email: "jasondanalcsw@gmail.com", // e.g. "hello@jasondana.com"
+  phone: "(845) 402-0478", // e.g. "(555) 123-4567"
   facebook: "",
   instagram: "https://www.instagram.com/jasondanalcsw/",
   substack: "https://jasondana.substack.com/?utm_campaign=profile_chips/",
