@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Facebook, Instagram, Logo } from "./Icons";
+import { Facebook, Instagram, Logo, Substack } from "./Icons";
 import { nav, site } from "@/lib/site";
 
 export default function Header() {
@@ -49,6 +49,7 @@ export default function Header() {
   <a href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook /></a>
 )}
             <a href={site.instagram} aria-label="Instagram" target="_blank" rel="noopener noreferrer"><Instagram /></a>
+            <a href={site.substack} aria-label="Substack" target="_blank" rel="noopener noreferrer"><Substack /></a>
           </div>
         </nav>
       </div>
