@@ -5,6 +5,7 @@ export const site = {
   phone: "", // e.g. "(555) 123-4567"
   facebook: "",
   instagram: "https://www.instagram.com/jasondanalcsw/",
+  substack: "https://jasondana.substack.com/?utm_campaign=profile_chips/",
 };
 
 export const nav = [
