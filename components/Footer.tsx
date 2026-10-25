@@ -12,7 +12,9 @@ export default function Footer() {
             <span>{site.name}</span>
           </Link>
           <div className="social clay">
-            <a href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook /></a>
+            {site.facebook && (
+  <a href={site.facebook} aria-label="Facebook" target="_blank" rel="noopener noreferrer"><Facebook /></a>
+)}
             <a href={site.instagram} aria-label="Instagram" target="_blank" rel="noopener noreferrer"><Instagram /></a>
           </div>
         </div>
