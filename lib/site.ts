@@ -13,7 +13,6 @@ export const nav = [
   { label: "Specializations", href: "/specializations" },
   { label: "Getting Started", href: "/getting-started" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
   { label: "Blog", href: "/blog" },
 ];
 
@@ -31,7 +30,6 @@ export const footerColumns = [
     links: [
       { label: "About me", href: "/about" },
       { label: "Blog", href: "/blog" },
-      { label: "Contact", href: "/contact" },
     ],
   },
   {
@@ -39,7 +37,7 @@ export const footerColumns = [
     links: [
       { label: "Insurance and fees", href: "/getting-started#fees" },
       { label: "Cancellation policy", href: "/getting-started#cancellation" },
-      { label: "Free consultation", href: "/contact" },
+      { label: "Free consultation", href: "/getting-started#contact" },
     ],
   },
 ];
