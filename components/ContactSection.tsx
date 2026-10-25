@@ -6,7 +6,7 @@ export default function ContactSection() {
     <section className="contact-band" id="contact">
       <div className="contact-inner">
         <div>
-          <h2>Curious to know more?</h2>
+          <h2>Curious To Know More?</h2>
           <p className="contact-lines">
             <span>Email: {site.email ? <a href={`mailto:${site.email}`}>{site.email}</a> : null}</span>
             <span>Phone: {site.phone ? <a href={`tel:${site.phone}`}>{site.phone}</a> : null}</span>
