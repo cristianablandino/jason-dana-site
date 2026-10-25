@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import ContactSection from "@/components/ContactSection";
 import { IconCard, IconChat, IconClock } from "@/components/Icons";
+import InNetworkBand from "@/components/InNetworkBand";
 
 export const metadata: Metadata = { title: "Getting Started" };
 
@@ -44,6 +45,7 @@ export default function GettingStarted() {
       </div>
 
       <ContactSection />
+      <InNetworkBand />
     </>
   );
 }
