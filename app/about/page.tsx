@@ -16,6 +16,9 @@ export default function About() {
           <p>
             Outside of my professional life, I am a die-hard Mets fan, I enjoy playing baseball in a men’s recreational league, playing guitar/writing songs with my friends, and traveling and sharing TikToks with my wife.
           </p>
+          <div className="btn-row">
+  <a href="getting-started#contact" className="btn btn-primary">Schedule a free consultation</a>
+</div>
         </div>
         <img className="rounded" src={images.aboutPortrait} alt="Jason Dana smiling at a desk" />
       </section>
