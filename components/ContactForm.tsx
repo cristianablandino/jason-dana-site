@@ -61,7 +61,7 @@ export default function ContactForm({ showPhone = false }: Props) {
            <p className="form-note">
   Please don’t include private health details in this form. Web forms and email aren’t a secure way to share clinical information. If you are in crisis, call or text 988 or go to your nearest emergency room.
 </p>
-        <textarea name="message" placeholder="Enter your question or message" rows={5} required />
+        <textarea name="message" placeholder="Enter your question or message" rows={5} />
       </label>
       {/* Honeypot: real visitors never see or fill this */}
       <input name="website" tabIndex={-1} autoComplete="off" className="hp" aria-hidden="true" />
