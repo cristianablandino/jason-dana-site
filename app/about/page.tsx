@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
-import { images } from "@/lib/images";
+import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = { title: "About" };
 
@@ -20,10 +20,7 @@ export default function About() {
         <img className="rounded" src={images.aboutPortrait} alt="Jason Dana smiling at a desk" />
       </section>
 
-      <section className="wrap about-contact">
-        <h2>Contact me</h2>
-        <ContactForm />
-      </section>
+      <ContactSection />
     </>
   );
 }
