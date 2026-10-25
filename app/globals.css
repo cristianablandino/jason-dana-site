@@ -227,3 +227,5 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .copyright { width: min(1280px, 100% - 3rem); margin: 2rem auto 0; font-size: .85rem; color: var(--muted); max-width: none; }
 
 .network-single-inner { width: min(1280px, 100% - 3rem); margin-inline: auto; text-align: center; }
+
+.info-stack-after { padding-top: 5rem; }
