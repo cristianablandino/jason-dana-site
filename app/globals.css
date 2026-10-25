@@ -198,7 +198,7 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
   pointer-events: none;
 }
 .page-hero::before { background: url("/images/Pattern-hero.png") center / cover no-repeat; }
-.contact-band::before, .cta-band::before { background: url("/images/pattern-contact.png") center / cover no-repeat; }
+.contact-band::before, .cta-band::before { background: url("/images/pattern-contact.png") top right / 420px auto repeat; }
 
 .contact-band { position: relative; isolation: isolate; }
 .contact-band::before {
