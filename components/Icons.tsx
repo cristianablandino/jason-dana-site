@@ -1,5 +1,5 @@
 export function Logo({ className }: { className?: string }) {
-  return <img src="/images/JD_logo.svg" alt="" className={className} />;
+  return <img src="/images/JD_logo.png" alt="" className={className} />;
 }
 export function Facebook({ className }: { className?: string }) {
   return (
