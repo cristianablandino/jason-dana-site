@@ -1,6 +1,6 @@
 // Drop your real photos into /public/images and update the paths here.
 export const images = {
-  homeHero: "/images/hero.svg",
+  homeHero: "/images/Jason-landingpage.jpeg",
   homeClinician: "/images/landscape.svg",
   office: "/images/office.svg",
   aboutPortrait: "/images/portrait.svg",
