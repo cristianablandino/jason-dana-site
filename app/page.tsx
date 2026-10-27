@@ -90,7 +90,6 @@ export default function Home() {
       </section>
       
   <ContactForm />
-</section>
     </>
   );
 }
