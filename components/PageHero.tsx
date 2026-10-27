@@ -6,6 +6,7 @@ type Props = {
   text: string;
   primary?: { label: string; href: string };
   secondary?: { label: string; href: string };
+  image?: string;
 };
 
 export default function PageHero({
@@ -26,7 +27,7 @@ export default function PageHero({
             <Link href={secondary.href} className="btn btn-secondary">{secondary.label}</Link>
           </div>
         </div>
-        <img className="page-hero-photo" src={images.office} alt="A calm therapy office with two armchairs and plants" />
+        <img className="page-hero-photo" src={image} alt="A calm therapy office with two armchairs and plants" />
       </div>
     </section>
   );
