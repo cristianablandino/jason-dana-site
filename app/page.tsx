@@ -2,6 +2,7 @@ import Link from "next/link";
 import { IconChat, IconCompass, IconHeart } from "@/components/Icons";
 import { images } from "@/lib/images";
 import { posts } from "@/lib/posts";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -59,11 +60,11 @@ export default function Home() {
       <section className="network-band">
         <div className="network-inner">
           <div>
-            <h2>In network</h2>
+            <h2>In Network</h2>
             <img src="/images/Aetna_logo_reg_rgb_vio.png" alt="Aetna" className="aetna-logo" />
           </div>
           <div>
-            <h2>Out of network?</h2>
+            <h2>Out of Network?</h2>
             <Link href="/getting-started#fees" className="btn btn-primary">Learn more</Link>
           </div>
         </div>
@@ -87,6 +88,11 @@ export default function Home() {
         <h2 className="serif">Curious to know more?</h2>
         <Link href="/getting-started#contact" className="btn btn-primary">Book a free consultation</Link>
       </section>
+      
+      <section className="wrap about-contact">
+  <h2>Contact me</h2>
+  <ContactForm />
+</section>
     </>
   );
 }
