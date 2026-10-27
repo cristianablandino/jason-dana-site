@@ -6,6 +6,7 @@ export const site = {
   facebook: "",
   instagram: "https://www.instagram.com/jasondanalcsw/",
   substack: "https://jasondana.substack.com/?utm_campaign=profile_chips/",
+  zocdoc: "https://www.zocdoc.com/professional/jason-dana-lcsw-965018?LocIdent=448693&utm_source=desktop_web&utm_medium=sharedlink&utm_campaign=share_providerprofile&utm_content=copy_link",
 };
 
 export const nav = [
