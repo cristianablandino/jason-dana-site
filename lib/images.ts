@@ -2,11 +2,14 @@
 export const images = {
   homeHero: "/images/Jason-landingpage.jpeg",
   homeClinician: "/images/mygoal.jpg",
-  office: "/images/office.svg",
+  office: "/images/office.jpg",
+  specializationsHero: "/images/man.jpg",
+  gettingStartedHero: "/images/young.jpg",
+  approachHero: "/images/books.jpg",
   aboutPortrait: "/images/portrait.svg",
-  youngAdults: "/images/girl.jpeg",
-  anxiety: "/images/anxiety.jpeg",
-  depression: "/images/depression.jpeg",
+  youngAdults: "/images/girl.jpg",
+  anxiety: "/images/anxiety.jpg",
+  depression: "/images/depression.jpg",
   articleHero: "/images/article.svg",
   card: "/images/card.svg",
 };
