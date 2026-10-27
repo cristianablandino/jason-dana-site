@@ -12,7 +12,8 @@ export default function PageHero({
   title,
   text,
   primary = { label: "Schedule free consultation", href: "/getting-started#contact" },
-  secondary = { label: "My approach", href: "/my-approach" },
+  secondary = { label: "My approach", href: "/my-approach" }, 
+  image = images.office,
 }: Props) {
   return (
     <section className="page-hero">
