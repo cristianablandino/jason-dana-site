@@ -85,7 +85,7 @@ export default function Home() {
       </section>
 
       <section className="cta-band">
-        <h2 className="serif">Curious to know more?</h2>
+        <h2 className="serif">Ready When You Are</h2>
         <Link href="/getting-started#contact" className="btn btn-primary">Book a free consultation</Link>
       </section>
       
