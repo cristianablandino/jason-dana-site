@@ -89,7 +89,7 @@ export default function Home() {
         <Link href="/getting-started#contact" className="btn btn-primary">Book a free consultation</Link>
       </section>
       
-  <ContactForm />
+  <ContactSection />
     </>
   );
 }
