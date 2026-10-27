@@ -129,8 +129,9 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .read-more::after { content: " →"; }
 
 /* CTA band */
-.cta-band { background: var(--sage-band); text-align: center; padding-block: 4.5rem; }
-.cta-band h2 { margin-bottom: 1.5rem; }
+.cta-band { background: #EBD3C4; text-align: center; padding-block: 4.5rem; }
+.cta-band h2 { margin-bottom: .6rem; }
+.cta-band p { margin: 0 auto 1.5rem; }
 
 /* Page hero (inner pages) */
 .page-hero { background: var(--sage-hero); position: relative; margin-bottom: 7rem; }
