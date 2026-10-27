@@ -244,3 +244,14 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .home-hero-copy h1, .home-hero-copy p { color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
 
 .social img { width: 22px; height: 22px; object-fit: contain; display: block; }
+
+.zocdoc-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: currentColor;
+  -webkit-mask: url("/images/zee.png") center / contain no-repeat;
+  mask: url("/images/zocdoc.png") center / contain no-repeat;
+  -webkit-mask-mode: luminance;
+  mask-mode: luminance;
+}
