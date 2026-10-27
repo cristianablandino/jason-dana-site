@@ -17,7 +17,7 @@ export default function Footer() {
 )}
             <a href={site.instagram} aria-label="Instagram" target="_blank" rel="noopener noreferrer"><Instagram /></a>
           <a href={site.substack} aria-label="Substack" target="_blank" rel="noopener noreferrer"><Substack /></a>
-            <a href={site.zocdoc} aria-label="Zocdoc" target="_blank" rel="noopener noreferrer"><img src="/images/zee.png" alt="" className="social-img" /></a>
+            <a href={site.zocdoc} aria-label="Zocdoc" target="_blank" rel="noopener noreferrer"><span className="zocdoc-icon" /></a>
           </div>
         </div>
         <div className="footer-cols">
