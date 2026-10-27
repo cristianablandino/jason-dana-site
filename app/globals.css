@@ -231,7 +231,7 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .info-stack-after { padding-top: 5rem; }
 
 .home-hero { position: relative; isolation: isolate; min-height: clamp(520px, 46vw, 760px); }
-.home-hero-bg { object-position: center; transform: translate(11%, -4%) scale(1.5); transform-origin: 64% 46%; }
+.home-hero-bg { object-position: center; transform: translate(9%, -6%) scale(1.8); transform-origin: 64% 46%; }
 .home-hero::after {
   content: "";
   position: absolute;
