@@ -207,7 +207,7 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
   mask-image: linear-gradient(to left, #000 30%, transparent 90%);
 }
 .contact-band::before {
-  background-image: url("/images/Pattern-contact.png");
+ background-image: url("/images/Rectangle 4.png");
   background-position: center;
   background-size: cover;
 }
