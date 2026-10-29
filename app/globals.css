@@ -103,7 +103,6 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .feature-row:first-of-type { padding-top: 6rem; }
 @media (max-width: 860px) {
   .split, .feature-row { grid-template-columns: 1fr; gap: 1.5rem; }
-  .feature-row img { position: static; }
   .feature-row.flip img { order: -1; }
 }
 
