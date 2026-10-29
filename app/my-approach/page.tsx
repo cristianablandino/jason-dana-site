@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import ContactSection from "@/components/ContactSection";
-import { IconCompass, IconHeart, IconPath, IconSteps } from "@/components/Icons";
+import { IconEar, IconReed, IconSignpost, IconMountain } from "@/components/Icons";
 
 export const metadata: Metadata = { title: "My Approach" };
 
@@ -16,7 +16,7 @@ export default function MyApproach() {
 
       <div className="wrap info-stack">
         <section className="info-block">
-          <span className="icon-disc"><IconHeart /></span>
+          <span className="icon-disc"><IconEar /></span>
           <h2>Person-Centered/Rogerian Therapy</h2>
           <p>
             Developed by Carl Rogers, Person-Centered Therapy is oriented around the idea that if the therapist is able to create a therapeutic environment where the client experiences the therapist as being authentic, empathic, and having unconditional positive regard for the client that the client’s natural actualizing tendency will naturally find its way to use the therapy to heal and grow in all ways important to the client. In my practice I always try to maintain these three qualities in working with clients: authenticity, meaning that I am being honest and congruent with my actual experience and not trying to deceive you or hide how I am feeling; empathy, meaning I do my best to really understand what you are saying and how you are feeling moment-to-moment; and unconditional positive regard, meaning I am conveying that whatever internal experiences are coming up for you that you are still completely accepted as you are.
@@ -40,7 +40,7 @@ export default function MyApproach() {
         </section>
 
         <section className="info-block">
-          <span className="icon-disc"><IconSteps /></span>
+          <span className="icon-disc"><IconMountain /></span>
           <h2>Exposure and Response Prevention</h2>
           <p>
             Considered the gold-standard treatment for Obsessive-Compulsive Disorder (OCD), Exposure and Response Prevention is a cognitive-behavioral treatment approach for anxiety related disorders. As the name implies, it involves two key steps: exposure, or intentionally directly experiencing something anxiety provoking; and response prevention, or intentionally resisting the urge to use a familiar but unhelpful coping mechanism. This approach can sound daunting when described, however, in practice it is essential that treatment unfolds at the pace set forth by the client. In my practice we use this general approach with OCD and a number of other similar challenges to gradually develop your capacity to experience a range of thoughts and emotions while maintaining a sense of agency in your behavior as well as establish more value-oriented and healthy patterns of behavior while leaving self-limiting and unwanted compulsive behaviors in the past.
