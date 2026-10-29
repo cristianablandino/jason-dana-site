@@ -153,8 +153,8 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 /* About */
 .about-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: start; padding-block: 4rem; }
 .about-grid img { aspect-ratio: 4/5; }
-.about-contact { max-width: 720px; margin-inline: 0 auto; padding-bottom: 5rem; margin-left: max(1.5rem, calc((100% - 1280px) / 2)); }
-@media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+.about-contact { max-width: 720px; margin-inline: 0 auto; padding-bottom: 5rem; margin-left: max(1.5rem, calc((100% - 1280px) / 2)); } .about-contact { margin-left: auto; } }
+@media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; gap: 2rem; } }
 
 .contact-intro { padding-block: 4rem 2rem; }
 
