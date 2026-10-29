@@ -154,7 +154,7 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .about-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: start; padding-block: 4rem; }
 .about-grid img { aspect-ratio: 4/5; }
 .about-contact { max-width: 720px; margin-inline: 0 auto; padding-bottom: 5rem; margin-left: max(1.5rem, calc((100% - 1280px) / 2)); }
-@media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; gap: 2rem; } .about-contact { margin-left: auto; } }
+@media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; gap: 2rem; }
 
 .contact-intro { padding-block: 4rem 2rem; }
 
@@ -230,8 +230,6 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
   pointer-events: none;
 }
 .home-hero-copy h1, .home-hero-copy p { color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
-
-.social img { width: 22px; height: 22px; object-fit: contain; display: block; }
 
 .zocdoc-icon {
   display: block;
