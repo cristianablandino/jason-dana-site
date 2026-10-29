@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { IconChat, IconCompass, IconHeart } from "@/components/Icons";
+import { IconSprout, IconWind, IconSunrise } from "@/components/Icons";
 import { images } from "@/lib/images";
 import { posts } from "@/lib/posts";
 import ContactSection from "@/components/ContactSection";
@@ -22,17 +22,17 @@ export default function Home() {
         <h2 className="sans">Specializations</h2>
         <div className="spec-grid">
           <article>
-            <span className="icon-disc"><IconCompass /></span>
+            <span className="icon-disc"><IconSprout /></span>
             <h3>Young adults</h3>
             <p>Jason adapts the tools of therapy to meet young adults where they are and help them find solutions that fit their lives.</p>
           </article>
           <article>
-            <span className="icon-disc"><IconChat /></span>
+            <span className="icon-disc"><IconWind /></span>
             <h3>Anxiety</h3>
             <p>Whether manifesting as stress, social anxiety, panic attacks, OCD, or overwhelm, Jason offers a supportive relationship and effective tools for relieving excessive anxiety.</p>
           </article>
           <article>
-            <span className="icon-disc"><IconHeart /></span>
+            <span className="icon-disc"><IconSunrise /></span>
             <h3>Depression</h3>
             <p>Whether struggling to feel valuable oneself or struggling to feel hope for the future, Jason meets you where you are at and collaboratively helps you re-engage with your life in ways that work for you.</p>
           </article>
