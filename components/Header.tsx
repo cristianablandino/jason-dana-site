@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Facebook, Instagram, Logo, Substack } from "./Icons";
 import { nav, site } from "@/lib/site";
 
-// Pages shown inside the "Therapy" dropdown
+// Pages shown in the "Therapy" hover menu
 const therapyLinks = [
   { label: "Specializations", href: "/specializations" },
   { label: "My approach", href: "/my-approach" },
@@ -15,43 +15,13 @@ const therapyLinks = [
 export default function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [therapyOpen, setTherapyOpen] = useState(false);
-  const therapyRef = useRef<HTMLLIElement>(null);
 
   const therapyActive = therapyLinks.some((l) => pathname.startsWith(l.href));
-
-  // Close the dropdown when the page changes
-  useEffect(() => {
-    setTherapyOpen(false);
-  }, [pathname]);
-
-  // Close the dropdown when clicking outside it or pressing Escape
-  useEffect(() => {
-    function onClick(e: MouseEvent) {
-      if (therapyRef.current && !therapyRef.current.contains(e.target as Node)) {
-        setTherapyOpen(false);
-      }
-    }
-    function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") setTherapyOpen(false);
-    }
-    document.addEventListener("mousedown", onClick);
-    document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("mousedown", onClick);
-      document.removeEventListener("keydown", onKey);
-    };
-  }, []);
-
-  function closeAll() {
-    setOpen(false);
-    setTherapyOpen(false);
-  }
 
   return (
     <header className="site-header">
       <div className="header-inner">
-        <Link href="/" className="brand" onClick={closeAll}>
+        <Link href="/" className="brand" onClick={() => setOpen(false)}>
           <Logo className="brand-mark" />
           <span>{site.name}</span>
         </Link>
@@ -68,26 +38,20 @@ export default function Header() {
         <nav id="primary-nav" className={`primary-nav${open ? " open" : ""}`} aria-label="Primary">
           <ul>
             {nav.map((item) => {
-              // The Specializations link is replaced by the Therapy dropdown
+              // The Specializations link is replaced by the Therapy hover menu
               if (item.href === "/specializations") {
                 return (
-                  <li key="therapy" ref={therapyRef} className={`nav-dropdown${therapyOpen ? " open" : ""}`}>
-                    <button
-                      type="button"
-                      className={`nav-dropdown-btn${therapyActive ? " active" : ""}`}
-                      aria-expanded={therapyOpen}
-                      aria-haspopup="true"
-                      onClick={() => setTherapyOpen((v) => !v)}
-                    >
+                  <li key="therapy" className="nav-dropdown">
+                    <span className={`nav-dropdown-label${therapyActive ? " active" : ""}`} tabIndex={0}>
                       Therapy
-                    </button>
+                    </span>
                     <ul className="nav-dropdown-menu">
                       {therapyLinks.map((l) => (
                         <li key={l.href}>
                           <Link
                             href={l.href}
                             aria-current={pathname.startsWith(l.href) ? "page" : undefined}
-                            onClick={closeAll}
+                            onClick={() => setOpen(false)}
                           >
                             {l.label}
                           </Link>
@@ -101,7 +65,7 @@ export default function Header() {
               const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
               return (
                 <li key={item.href}>
-                  <Link href={item.href} aria-current={active ? "page" : undefined} onClick={closeAll}>
+                  <Link href={item.href} aria-current={active ? "page" : undefined} onClick={() => setOpen(false)}>
                     {item.label}
                   </Link>
                 </li>
