@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       <section className="section wrap">
-        <h2 className="serif">Specializations</h2>
+        <h2 className="sans">Specializations</h2>
         <div className="spec-grid">
           <article>
             <span className="icon-disc"><IconCompass /></span>
@@ -45,7 +45,7 @@ export default function Home() {
 
       <section className="section wrap split">
         <div>
-          <h2 className="serif">My goal as a clinician</h2>
+          <h2 className="sans">My goal as a clinician</h2>
           <p>
             As a therapist, I sincerely hope to make a meaningful difference in the lives of everyone who comes through my office. As someone who has benefited from therapy myself, I know how powerful a consistent and supportive therapeutic relationship can be in a person’s life. Whether we meet for one session or for several years my intention is to offer everything that I can from my clinical education and personal experience to benefit you in your life.
           </p>
