@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       <section className="section wrap">
-        <h2 className="serif">Blog articles</h2>
+        <h2 className="sans">Blog articles</h2>
         <div className="card-grid two">
           {posts.slice(0, 2).map((p) => (
             <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
