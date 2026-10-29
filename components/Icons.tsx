@@ -50,3 +50,34 @@ export function IconPath() {
 export function IconSteps() {
   return (<svg {...iconProps} aria-hidden="true"><path d="M8 38h10v-8h10v-8h10V10" /></svg>);
 }
+
+export function IconSprout() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M24 40V22" />
+      <path d="M24 28C24 21 19 16 11 16C11 23 16 28 24 28Z" />
+      <path d="M24 22C24 15 28 11 36 11C36 18 32 22 24 22Z" />
+      <path d="M16 40h16" />
+    </svg>
+  );
+}
+
+export function IconWind() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M35.4 15.4a5 5 0 1 1 3.6 8.6H4" />
+      <path d="M19.2 9.2A4 4 0 1 1 22 16H4" />
+      <path d="M25.2 38.8A4 4 0 1 0 28 32H4" />
+    </svg>
+  );
+}
+
+export function IconSunrise() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M14 32a10 10 0 0 1 20 0" />
+      <path d="M24 18v-4M14 22l-3-3M34 22l3-3M10 32H6M38 32h4" />
+      <path d="M12 38h24" />
+    </svg>
+  );
+}
