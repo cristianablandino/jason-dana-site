@@ -122,3 +122,13 @@ export function IconMountain() {
     </svg>
   );
 }
+
+export function IconClipboard() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M16 9h-2a3 3 0 0 0-3 3v26a3 3 0 0 0 3 3h20a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3h-2" />
+      <path d="M19 6h10a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H19a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
+      <path d="M18 27l4 4 8-9" />
+    </svg>
+  );
+}
