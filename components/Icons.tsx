@@ -81,3 +81,44 @@ export function IconSunrise() {
     </svg>
   );
 }
+
+export function IconEar() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M16 22a10 10 0 0 1 20 0c0 6-4 8-6 11-1.5 2.5-2 5-5 5a5 5 0 0 1-5-5" />
+      <path d="M24 22a3 3 0 0 1 6 0c0 3-3 3-3 6" />
+    </svg>
+  );
+}
+
+export function IconReed() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M14 40C14 28 20 18 36 12" />
+      <path d="M16 32c-4 0-7-2-8-6 4 0 7 2 8 6z" />
+      <path d="M21 23c0-4 3-7 7-8 0 4-3 7-7 8z" />
+      <path d="M10 40h14" />
+    </svg>
+  );
+}
+
+export function IconSignpost() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M24 8v32" />
+      <path d="M24 12h14l4 4-4 4H24z" />
+      <path d="M24 25H10l-4 4 4 4h14z" />
+      <path d="M18 40h12" />
+    </svg>
+  );
+}
+
+export function IconMountain() {
+  return (
+    <svg {...iconProps} aria-hidden="true">
+      <path d="M6 40l14-22 8 12 5-7 9 17z" />
+      <path d="M20 18V7" />
+      <path d="M20 7h8l-2 3 2 3h-8" />
+    </svg>
+  );
+}
