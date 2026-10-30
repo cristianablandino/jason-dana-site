@@ -15,6 +15,7 @@ export default function Home() {
             Jason Dana offers research-backed psychotherapy to help you feel better and live a life you are proud of.
           </p>
           <Link href="/getting-started" className="btn btn-primary">Book a free consultation</Link>
+          <Link href="/getting-started" className="btn btn-secondary">Getting started</Link>
         </div>
       </section>
 
