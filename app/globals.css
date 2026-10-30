@@ -120,6 +120,8 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
   pointer-events: none;
 }
 .home-hero-copy h1, .home-hero-copy p { color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.home-hero-copy .btn-secondary { background: rgba(255,255,255,.14); color: #fff; border: 1px solid rgba(255,255,255,.7); }
+.home-hero-copy .btn-secondary:hover { background: rgba(255,255,255,.28); }
 
 /* Specializations on home */
 .spec-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; margin-top: 2.5rem; }
