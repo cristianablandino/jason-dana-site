@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import ContactSection from "@/components/ContactSection";
 import { IconCard, IconClipboard, IconClock } from "@/components/Icons";
 import InNetworkBand from "@/components/InNetworkBand";
+import { images } from "@/lib/images";
 
 export const metadata: Metadata = { title: "Getting Started" };
 
@@ -11,6 +12,7 @@ export default function GettingStarted() {
     <>
       <PageHero
         title="Getting Started"
+        image={images.gettingStartedHero}
         text="Try a free consultation to discuss the logistics of psychotherapy and see if we feel like a good fit."
       />
 
