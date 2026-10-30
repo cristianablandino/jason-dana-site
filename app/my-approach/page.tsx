@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import ContactSection from "@/components/ContactSection";
 import { IconEar, IconReed, IconSignpost, IconMountain } from "@/components/Icons";
+import { images } from "@/lib/images";
 
 export const metadata: Metadata = { title: "My Approach" };
 
