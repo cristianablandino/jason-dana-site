@@ -4,7 +4,7 @@ export const images = {
   homeClinician: "/images/mygoal.jpg",
   office: "/images/office.jpg",
   specializationsHero: "/images/young.jpg",
-  gettingStartedHero: "/images/young.jpg",
+  gettingStartedHero: "/images/man.jpg",
   approachHero: "/images/books.jpg",
   aboutPortrait: "/images/portrait.svg",
   youngAdults: "/images/girl.jpg",
