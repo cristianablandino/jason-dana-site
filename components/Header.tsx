@@ -10,6 +10,7 @@ import { nav, site } from "@/lib/site";
 const therapyLinks = [
   { label: "Specializations", href: "/specializations" },
   { label: "My approach", href: "/my-approach" },
+  { label: "Getting Started", href: "/getting-started" },
 ];
 
 export default function Header() {
