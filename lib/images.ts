@@ -3,7 +3,7 @@ export const images = {
   homeHero: "/images/Jason-landingpage.jpeg",
   homeClinician: "/images/mygoal.jpg",
   office: "/images/office.jpg",
-  specializationsHero: "/images/man.jpg",
+  specializationsHero: "/images/specializations-banner.jpg",
   gettingStartedHero: "/images/young.jpg",
   approachHero: "/images/books.jpg",
   aboutPortrait: "/images/portrait.svg",
