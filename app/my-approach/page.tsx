@@ -10,6 +10,7 @@ export default function MyApproach() {
     <>
       <PageHero
         title="My Approach"
+        image={images.approachHero}
         text="The therapeutic approaches I draw on, and how they show up in our work together."
         secondary={{ label: "Getting started", href: "/getting-started" }}
       />
