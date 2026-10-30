@@ -20,11 +20,12 @@ export default function Specializations() {
     <>
       <PageHero
         title="Specializations"
+        image={images.specializationsHero}
         text="Although the primary modalities I use are transdiagnostic and work with a variety of mental health diagnoses and populations, here are a few of the areas of focus I’ve been developing some specialization in over my career so far."
       />
 
       <section className="wrap feature-row">
-        <img className="rounded" src={images.specializationsHero} alt="A smiling young woman with her arms crossed" />
+        <img className="rounded" src={images.girl} alt="A smiling young woman with her arms crossed" />
         <div>
           <h2>Young Adults</h2>
           <p>
