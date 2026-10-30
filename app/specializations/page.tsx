@@ -25,7 +25,7 @@ export default function Specializations() {
       />
 
       <section className="wrap feature-row">
-        <img className="rounded" src={images.specializationsHero} alt="A smiling young woman with her arms crossed" />
+        <img className="rounded" src={images.youngAdults} alt="A smiling young woman with her arms crossed" />
         <div>
           <h2>Young Adults</h2>
           <p>
