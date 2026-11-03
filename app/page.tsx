@@ -76,7 +76,7 @@ export default function Home() {
         <div className="card-grid two">
           {posts.slice(0, 2).map((p) => (
             <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
-              <img src={images.card} alt="" />
+              <img src={p.image ?? images.card} alt="" />
               <h3>{p.title}</h3>
               <p>{p.summary}</p>
               <span className="read-more">Read more</span>
