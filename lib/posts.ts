@@ -4,6 +4,12 @@ export type Post = {
   title: string;
   summary: string;
   image?: string;
+    credit?: {
+    author: string;
+    authorUrl: string;
+    source: string;
+    sourceUrl: string;
+  };
   body: string[];
 };
 
@@ -13,6 +19,12 @@ export const posts: Post[] = [
     title: "Am I Fully Healed Yet?",
     summary: "Some thoughts on the goal of therapy.",
     image: "/images/blog1.jpg",
+     credit: {
+      author: "Ante Hamersmit",
+      authorUrl: "https://unsplash.com/@ante_kante",
+      source: "Unsplash",
+      sourceUrl: "https://unsplash.com/",
+    },
     body: [
       "Many people, myself included, initially come to therapy with what is called a “medical model” of what therapy is all about. The basic premise is something like this:",
       "If you are suffering from your thoughts, feelings, or behaviors then you have a medical condition and you need to see a doctor who will fix that medical condition and then you will be fully healthy again.",
