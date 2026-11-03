@@ -12,7 +12,7 @@ export const posts: Post[] = [
     slug: "am-i-fully-healed-yet",
     title: "Am I Fully Healed Yet?",
     summary: "Some thoughts on the goal of therapy.",
-    image: "/images/blog1.jpg"
+    image: "/images/blog1.jpg",
     body: [
       "Many people, myself included, initially come to therapy with what is called a “medical model” of what therapy is all about. The basic premise is something like this:",
       "If you are suffering from your thoughts, feelings, or behaviors then you have a medical condition and you need to see a doctor who will fix that medical condition and then you will be fully healthy again.",
@@ -30,7 +30,7 @@ export const posts: Post[] = [
     slug: "when-anxiety-feels-like-too-much",
     title: "When anxiety feels like too much",
     summary: "How anxiety shows up, and what working on it looks like.",
-    image: "/images/your-photo.jpg"
+    image: "/images/your-photo.jpg",
     body: [
       "This is placeholder text. Replace it with your second article.",
       "To add more posts, add another object to the list in lib/posts.ts.",
@@ -40,7 +40,7 @@ export const posts: Post[] = [
     slug: "finding-a-therapist-who-fits",
     title: "Finding a therapist who fits",
     summary: "What to look for when choosing someone to work with.",
-    image: "/images/your-photo.jpg"
+    image: "/images/your-photo.jpg",
     body: [
       "This is placeholder text. Replace it with your third article.",
       "Posts appear on the blog page and in the related articles section automatically.",
