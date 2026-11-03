@@ -67,6 +67,7 @@ export const posts: Post[] = [
     title: "Psychotherapy is Soul-therapy",
     summary: "What “psycho-therapy” really means",
     image: "/images/blog3.jpg",
+        imagePosition: "50% 20%",
      credit: {
       author: "Christopher Ruel",
       authorUrl: "https://unsplash.com/@chrisruel",
