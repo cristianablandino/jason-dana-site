@@ -65,7 +65,7 @@ export const posts: Post[] = [
   {
     slug: "psychotherapy-is-soul-therapy",
     title: "Psychotherapy is Soul-therapy",
-    summary: "What "psycho-therapy" really means",
+    summary: "What “psycho-therapy” really means",
     image: "/images/blog3.jpg",
      credit: {
       author: "Christopher Ruel",
