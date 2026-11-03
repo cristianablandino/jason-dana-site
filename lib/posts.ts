@@ -4,6 +4,7 @@ export type Post = {
   title: string;
   summary: string;
   image?: string;
+    imagePosition?: string;
     credit?: {
     author: string;
     authorUrl: string;
