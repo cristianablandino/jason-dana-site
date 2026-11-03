@@ -25,7 +25,7 @@ export default async function Post({ params }: { params: Promise<Params> }) {
   return (
     <>
       <section className="article-hero">
-        <img src={post.image ?? images.articleHero} alt="" />
+       <img src={post.image ?? images.articleHero} alt="" style={{ objectPosition: post.imagePosition }} />
         <div>
           <h1>{post.title}</h1>
           <p>{post.summary}</p>
@@ -56,7 +56,7 @@ export default async function Post({ params }: { params: Promise<Params> }) {
           <div className="card-grid three">
             {related.map((p) => (
               <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
-               <img src={p.image ?? images.card} alt="" />
+               <img src={p.image ?? images.card} alt="" style={{ objectPosition: p.imagePosition }} />
                 <h3>{p.title}</h3>
                 <p>{p.summary}</p>
               </Link>
