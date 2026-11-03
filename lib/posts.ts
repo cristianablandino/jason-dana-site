@@ -12,7 +12,7 @@ export const posts: Post[] = [
     slug: "am-i-fully-healed-yet",
     title: "Am I Fully Healed Yet?",
     summary: "Some thoughts on the goal of therapy.",
-    image: "/images/your-photo.jpg"
+    image: "/images/blog1.jpg"
     body: [
       "Many people, myself included, initially come to therapy with what is called a “medical model” of what therapy is all about. The basic premise is something like this:",
       "If you are suffering from your thoughts, feelings, or behaviors then you have a medical condition and you need to see a doctor who will fix that medical condition and then you will be fully healthy again.",
