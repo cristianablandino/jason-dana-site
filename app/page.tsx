@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IconSprout, IconWind, IconSunrise } from "@/components/Icons";
 import { images } from "@/lib/images";
-import { posts } from "@/lib/posts";
+import { posts, author, formatDate } from "@/lib/posts";
 import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
@@ -85,6 +85,7 @@ export default function Home() {
             <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
               <img src={p.image ?? images.card} alt="" style={{ objectPosition: p.imagePosition }} />
               <h3>{p.title}</h3>
+              <span className="post-meta">{`By ${author}${p.date ? " · " + formatDate(p.date) : ""}`}</span>
               <p>{p.summary}</p>
               <span className="read-more">Read more</span>
             </Link>
