@@ -122,6 +122,8 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .home-hero-copy h1, .home-hero-copy p { color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
 .home-hero-copy .btn-secondary { background: var(--disc); color: #2b2f2b; border: 0; margin-left: .85rem; }
 .home-hero-copy .btn-secondary:hover { background: #cfd1c8; }
+.license-badge { display: flex; width: fit-content; align-items: center; gap: .6rem; margin-top: 1.75rem; padding: .6rem 1.1rem .6rem .9rem; border: 1px solid rgba(255,255,255,.7); border-radius: 999px; background: rgba(0,0,0,.28); color: #fff; font-size: 1rem; font-weight: 500; }
+.license-badge svg { width: 22px; height: 22px; flex-shrink: 0; }
 
 /* Specializations on home */
 .spec-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; margin-top: 2.5rem; }
