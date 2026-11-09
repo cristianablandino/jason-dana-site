@@ -3,6 +3,7 @@ export type Post = {
   slug: string;
   title: string;
   summary: string;
+  date?: string;
   image?: string;
     imagePosition?: string;
     credit?: {
@@ -14,9 +15,22 @@ export type Post = {
   body: string[];
 };
 
+
+export const author = "Jason Dana";
+
+export function formatDate(date?: string) {
+  if (!date) return "";
+  return new Date(date + "T12:00:00").toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 export const posts: Post[] = [
   {
     slug: "am-i-fully-healed-yet",
+    date: "2026-11-03",
     title: "Am I Fully Healed Yet?",
     summary: "Some thoughts on the goal of therapy.",
     image: "/images/blog1.jpg",
@@ -41,6 +55,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mental-healt-content-helpful-or-harmful",
+    date: "2026-11-03",
     title: "Mental Health Content: Helpful or Harmful?",
     summary: "The importance of timing in therapeutic guidance",
     image: "/images/blog2.jpg",
@@ -65,6 +80,7 @@ export const posts: Post[] = [
   },
   {
     slug: "psychotherapy-is-soul-therapy",
+    date: "2026-11-03",
     title: "Psychotherapy is Soul-therapy",
     summary: "What “psycho-therapy” really means",
     image: "/images/blog3.jpg",
@@ -87,3 +103,5 @@ export const posts: Post[] = [
     ],
   },
 ];
+
+posts.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
