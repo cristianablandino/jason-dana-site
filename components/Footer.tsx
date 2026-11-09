@@ -33,7 +33,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <p className="footer-inner copyright">© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
+      <p className="footer-inner copyright">© {new Date().getFullYear()} {site.name}. All rights reserved. · Licensed in NY and NJ</p>
     </footer>
   );
 }
