@@ -28,12 +28,12 @@ export default async function Post({ params }: { params: Promise<Params> }) {
        <img src={post.image ?? images.articleHero} alt="" style={{ objectPosition: post.imagePosition }} />
         <div>
           <h1>{post.title}</h1>
-          <p className="post-meta">{`By ${author}${post.date ? " · " + formatDate(post.date) : ""}`}</p>
           <p>{post.summary}</p>
         </div>
       </section>
 
       <article className="article-body">
+      <p className="post-meta">{`By ${author}${post.date ? " · " + formatDate(post.date) : ""}`}</p>  
         {post.body.map((para, i) => (
           <p key={i}>{para}</p>
         ))}
