@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { posts } from "@/lib/posts";
+import { posts, author, formatDate } from "@/lib/posts";
 import { images } from "@/lib/images";
 
 type Params = { slug: string };
@@ -28,6 +28,7 @@ export default async function Post({ params }: { params: Promise<Params> }) {
        <img src={post.image ?? images.articleHero} alt="" style={{ objectPosition: post.imagePosition }} />
         <div>
           <h1>{post.title}</h1>
+          <p className="post-meta">{`By ${author}${post.date ? " · " + formatDate(post.date) : ""}`}</p>
           <p>{post.summary}</p>
         </div>
       </section>
