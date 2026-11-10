@@ -306,4 +306,5 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .approach-card details[open] summary .more-label { display: none; }
 .approach-card details[open] summary .less { display: inline; }
 .approach-card details[open] summary::after { content: " ↑"; }
+.approach-section { padding-top: 3rem; }
 .approach-grid { margin-top: 0; }
