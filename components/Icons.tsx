@@ -82,11 +82,11 @@ export function IconSunrise() {
   );
 }
 
-export function IconEar() {
+export function IconPerson() {
   return (
     <svg {...iconProps} aria-hidden="true">
-      <path d="M16 22a10 10 0 0 1 20 0c0 6-4 8-6 11-1.5 2.5-2 5-5 5a5 5 0 0 1-5-5" />
-      <path d="M24 22a3 3 0 0 1 6 0c0 3-3 3-3 6" />
+     <circle cx="24" cy="16" r="7" />
+     <path d="M10 41c0-9 6-14 14-14s14 5 14 14" />
     </svg>
   );
 }
