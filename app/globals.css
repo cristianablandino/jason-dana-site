@@ -178,7 +178,7 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .page-hero { background: var(--sage-hero); position: relative; margin-bottom: 7rem; }
 .page-hero-inner { width: min(1280px, 100% - 3rem); margin-inline: auto; display: grid; grid-template-columns: 1.1fr 1fr; gap: 3rem; align-items: center; padding-block: 4rem; }
 .page-hero-copy p { color: var(--muted); font-size: 1.1rem; max-width: 46ch; }
-.page-hero-photo { border-radius: var(--radius); width: min(100%, 440px); aspect-ratio: 4/5; object-fit: cover; margin-bottom: -7rem; justify-self: end; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+.page-hero-photo { border-radius: var(--radius); width: min(100%, 440px); aspect-ratio: 4/5; object-fit: cover; margin-bottom: -3.5rem; justify-self: end; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
 @media (max-width: 860px) {
   .page-hero { margin-bottom: 3rem; }
   .page-hero-inner { grid-template-columns: 1fr; }
@@ -306,5 +306,4 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .approach-card details[open] summary .more-label { display: none; }
 .approach-card details[open] summary .less { display: inline; }
 .approach-card details[open] summary::after { content: " ↑"; }
-.approach-section { padding-top: 7rem; }
 .approach-grid { margin-top: 0; }
