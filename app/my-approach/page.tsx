@@ -47,7 +47,7 @@ export default function MyApproach() {
         secondary={{ label: "Getting started", href: "/getting-started" }}
       />
 
-      <section className="wrap section">
+      <section className="wrap section approach-section">
         <div className="approach-grid">
           {approaches.map(({ title, Icon, intro, rest }) => (
             <article className="approach-card" key={title}>
