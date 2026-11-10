@@ -291,7 +291,7 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 @media (prefers-reduced-motion: reduce) { .back-to-top, .back-to-top svg { transition: none; } }
 
 /* My Approch Page */ 
-.approach-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem; align-items: start; margin-top: 2.5rem; }
+.approach-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem; align-items: stretch; margin-top: 2.5rem; }
 @media (max-width: 860px) { .approach-grid { grid-template-columns: 1fr; } }
 .approach-card { background: #f4f4ef; border-radius: 14px; padding: 2.25rem; }
 .approach-card h2 { font-size: 1.6rem; margin: .5rem 0 .9rem; }
