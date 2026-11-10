@@ -257,6 +257,8 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 /*Blog - Photos*/
 .photo-credit { font-size: .85rem; color: var(--muted); margin-top: 2.5rem; }
 .photo-credit a { text-decoration: underline; }
+.post-meta { display: block; color: var(--muted); font-size: .9rem; margin-bottom: .4rem; }
+.article-body .post-meta { color: var(--muted); font-size: .95rem; margin-bottom: 1.75rem; }
 
 /* Arrow - Back-to-top */
 .back-to-top {
@@ -288,5 +290,19 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 @media (max-width: 640px) { .back-to-top { right: 1rem; bottom: 1rem; width: 46px; height: 46px; } }
 @media (prefers-reduced-motion: reduce) { .back-to-top, .back-to-top svg { transition: none; } }
 
-.post-meta { display: block; color: var(--muted); font-size: .9rem; margin-bottom: .4rem; }
-.article-body .post-meta { color: var(--muted); font-size: .95rem; margin-bottom: 1.75rem; }
+/* My Approch Page */ 
+.approach-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem; align-items: start; margin-top: 2.5rem; }
+@media (max-width: 860px) { .approach-grid { grid-template-columns: 1fr; } }
+.approach-card { background: #f4f4ef; border-radius: 14px; padding: 2.25rem; }
+.approach-card h2 { font-size: 1.6rem; margin: .5rem 0 .9rem; }
+.approach-card p { margin-bottom: 0; }
+.approach-card details { margin-top: 1rem; }
+.approach-card details p { margin-top: 1rem; }
+.approach-card summary { list-style: none; cursor: pointer; display: inline-block; font-weight: 600; color: var(--clay); }
+.approach-card summary::-webkit-details-marker { display: none; }
+.approach-card summary::after { content: " →"; }
+.approach-card summary:hover { text-decoration: underline; }
+.approach-card summary .less { display: none; }
+.approach-card details[open] summary .more-label { display: none; }
+.approach-card details[open] summary .less { display: inline; }
+.approach-card details[open] summary::after { content: " ↑"; }
