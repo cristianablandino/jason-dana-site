@@ -9,7 +9,7 @@ import { nav, site } from "@/lib/site";
 // Pages shown in the "Therapy" hover menu
 const therapyLinks = [
   { label: "Specializations", href: "/specializations" },
-  { label: "My approach", href: "/my-approach" },
+  { label: "My Approach", href: "/my-approach" },
   { label: "Getting Started", href: "/getting-started" },
 ];
 
