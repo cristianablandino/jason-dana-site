@@ -102,6 +102,36 @@ export const posts: Post[] = [
       "So, although concepts like “soul” are often regarded as being opposite of the rigorous science-based fields of medicine, it is important to remember the original meaning of the profession of psychotherapy. This perspective, remembering the place of soul in psychotherapy, can help therapist and client alike in keeping their focus on what is most important as well as remembering the sanctity and gravity of the matters at hand in the therapy room.",
     ],
   },
+  {
+    slug: "yes-we-know-therapy-is-expensive",
+    date: "2026-11-12",
+    title: "Yes, We Know Therapy is Expensive and We’re Sorry",
+    summary: "A therapist's thoughts on the cost of psychotherapy in America",
+    image: "/images/blog4.jpg",
+        imagePosition: "50% 20%",
+     credit: {
+      author: "rupixen",
+      authorUrl: "https://unsplash.com/@rupixen",
+      source: "Unsplash",
+      sourceUrl: "https://unsplash.com/",
+    },
+    body: [
+      "Yes, we as therapists know that therapy is expensive and we’re sorry about that.",
+      "When I’ve had discussions about the profession of therapy this is one of the most heated topics that regularly comes up. How can it be that we can continually push for the importance of recognizing and prioritizing mental health, of healing trauma, of working through destructive behaviors and blind spots, and of all of the other important things that happen in therapy and then make a single session as expensive as buying a new 55” Smart TV? How do we expect it to be ok to say to people, who have struggled internally for months or years with the debate of whether or not they should seek help for their internal struggles, “Thanks for coming! That will be $250”?",
+      "I have a few things to say about this.",
+      "First and foremost, as therapists we’re aware of the tension of this double standard. This is not the situation we want and we know it puts an unfair financial toll on the clients who are simply seeking relief from their suffering and to grow as a person. Personally as a therapist in private practice, every time I have the conversation about the fees I charge I feel this tension viscerally.",
+      "So, how did we end up here? In the United States psychotherapy is a regulated healthcare profession that has the cost of treatment covered primarily by health insurance. There are a mix of public and private health insurances (public like Medicaid/Medicare, and private like United Healthcare and Fidelis etc.) and therapists can be “in-network” or “out-of-network” with any of these health insurance companies. If a therapist is in-network with your health insurance as a client you will pay a relatively small “co-pay” for each session with your therapist that is pre-determined by your insurance company and the agreement they have signed with your therapist. (That is, after you have paid off your annual “deductible” or the amount your insurance company requires you pay out of your own pocket before they start contributing.) If your therapist is out-of-network with your insurance, you may or may not have any help from your insurance company towards your therapy costs but regardless, your deductible and the amount you pay per session (in this case called “co-insurance”) will certainly be higher than the in-network costs.",
+      "Now, if you’ve been looking for a therapist recently you’ve likely discovered the recent trend of therapists moving further and further away from being in-network, and effectively increasing the out-of pocket costs of therapy for clients. Naturally you might wonder, why do these therapists who say they are interested in helping people seem to be making it harder for people to access their services?",
+      "Let me offer a little bit of the insider perspective on what often leads to this decision on the therapist’s end."
+      "When a therapist signs a contract with a health insurance company to be in-network with their members, the therapist has to agree to a fixed “allowed amount” that they can charge for their services. As you might expect, this amount is often quite low. For therapists working in private practice, this low amount combined with the amount of unpaid work that goes into writing progress notes, maintaining other necessary documentation, and spending time on marketing/networking strategies to connect with new clients as well as the significant overhead costs like paying for an electronic health record system, paying for continuing education training credits, renewing licenses, and renting office space, this low reimbursement rate easily becomes incompatible with supporting a lifestyle that doesn’t involve having a wealthy partner or living with your parents well into your 30s.",
+      "This puts therapists in an impossible situation of having to weigh their availability to potential clients who would benefit from their therapeutic help, and their own financial security and ability to support their own family. (This tension is often intensified by the additional financial responsibility of paying off the student loans required to get the requisite masters level education to practice as a therapist.)",
+      "But despite all of this, every therapist did in fact get into this profession with hopes of being an accessible helper and many of us continue to try and find ways to make our services more accessible despite the limitations of the system we operate in. Some of us are just lucky enough to have that wealthy partner or other financial privilege that allow us to accept the low reimbursement rates, many others are in network with some insurances and balance their low rates with other private pay clients or other better paying jobs, and still others offer sliding-scale or pro-bono spots.",
+      "Nonetheless, we are still left in an unsatisfying situation where there are many people struggling to find a therapist they can afford and therapists are not able to serve as many people as they otherwise could if the reimbursement system were better.",
+      "As therapists we are doing our best to model what we encourage our clients to do and adequately value our time and work (often working against the influence of our natural people-pleasing tendencies), while also helping the largest number of people possible regardless of financial means.",
+      "It seems to me that a better and more equitable system for clients and therapists alike will come through some combination of advocacy and activism directed towards insurance companies and elected officials. At the time of this writing, I personally am not aware of major movements or organizations with this as one of the primary goals but I welcome any further information about what work is already being done.",
+      "Finally, I hope that if you’ve made it this far reading this blog post you’ve been able to learn a little something about how the healthcare system currently works and how we find ourselves in the frustrating situation that we are in. As a therapist, I know that where things stand this likely means that you’re having to pay more for therapy than is fair–I’m sorry about that, and I hope we can feel like we’re on the same team trying to find ways to improve this situation.",
+    ],
+  },
 ];
 
 posts.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
