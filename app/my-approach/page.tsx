@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactSection from "@/components/ContactSection";
 import { images } from "@/lib/images";
@@ -58,6 +59,11 @@ export default function MyApproach() {
               <p>{intro} {rest}</p>
             </article>
           ))}
+        </div>
+
+        <div className="btn-row center">
+          <Link href="/getting-started#contact" className="btn btn-primary">Book a free consultation</Link>
+          <Link href="/getting-started" className="btn btn-secondary">Getting started</Link>
         </div>
       </section>
 
