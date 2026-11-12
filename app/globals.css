@@ -308,3 +308,13 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
 .approach-card details[open] summary::after { content: " ↑"; }
 .approach-section { padding-top: 3rem; }
 .approach-grid { margin-top: 0; }
+
+/* Pattern sizes, home buttons, mobile photo overhang */
+.page-hero::before { background-size: 475px auto; }
+.contact-band::before { background-position: center bottom; background-size: 1366px auto; }
+.home-hero-copy .btn-secondary { margin-left: 0; }
+.home-hero-copy .btn-row { margin-top: 0; }
+@media (max-width: 860px) {
+  .page-hero { margin-bottom: 5rem; }
+  .page-hero-photo { margin-bottom: -7rem; }
+}
