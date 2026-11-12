@@ -82,16 +82,22 @@ export default function Home() {
 
       <section className="section wrap">
         <h2 className="sans">Blog Articles</h2>
-        <div className="card-grid two">
-          {posts.slice(0, 2).map((p) => (
-            <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
-              <img src={p.image ?? images.card} alt="" style={{ objectPosition: p.imagePosition }} />
-              <h3>{p.title}</h3>
-              <span className="post-meta">{`By ${author}${p.date ? " · " + formatDate(p.date) : ""}`}</span>
-              <p>{p.summary}</p>
-              <span className="read-more">Read more</span>
-            </Link>
-          ))}
+        <div className="blog-row">
+          <div className="card-grid two">
+            {posts.slice(0, 2).map((p) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
+                <img src={p.image ?? images.card} alt="" style={{ objectPosition: p.imagePosition }} />
+                <h3>{p.title}</h3>
+                <span className="post-meta">{`By ${author}${p.date ? " · " + formatDate(p.date) : ""}`}</span>
+                <p>{p.summary}</p>
+                <span className="read-more">Read more</span>
+              </Link>
+            ))}
+          </div>
+          <Link href="/blog" className="blog-next" aria-label="See all blog articles">
+            <span className="blog-next-label">All articles</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 4l8 8-8 8" /></svg>
+          </Link>
         </div>
       </section>
 
