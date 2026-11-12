@@ -7,6 +7,7 @@ type Props = {
   primary?: { label: string; href: string };
   secondary?: { label: string; href: string };
   image?: string;
+  imagePosition?: string;
 };
 
 export default function PageHero({
@@ -15,6 +16,7 @@ export default function PageHero({
   primary = { label: "Schedule free consultation", href: "/getting-started#contact" },
   secondary = { label: "My approach", href: "/my-approach" }, 
   image = images.office,
+  imagePosition,
 }: Props) {
   return (
     <section className="page-hero">
@@ -27,7 +29,12 @@ export default function PageHero({
             <Link href={secondary.href} className="btn btn-secondary">{secondary.label}</Link>
           </div>
         </div>
-        <img className="page-hero-photo" src={image} alt="A calm therapy office with two armchairs and plants" />
+        <img 
+          className="page-hero-photo" 
+          src={image} 
+          alt="A calm therapy office with two armchairs and plants" 
+          style={{ objectPosition: imagePosition }}
+          />
       </div>
     </section>
   );
