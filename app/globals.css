@@ -318,3 +318,15 @@ p { margin: 0 0 1.1em; max-width: 68ch; }
   .page-hero { margin-bottom: 5rem; }
   .page-hero-photo { margin-bottom: -7rem; }
 }
+
+/* arrow to the main blog page */
+.blog-row { position: relative; }
+.blog-next { position: absolute; right: -4.5rem; top: 40%; transform: translateY(-50%); display: grid; place-items: center; width: 48px; height: 48px; color: var(--clay); transition: transform .2s ease, color .15s; }
+.blog-next svg { width: 34px; height: 34px; }
+.blog-next:hover { color: var(--clay-dark); transform: translateY(-50%) translateX(6px); }
+.blog-next-label { display: none; }
+@media (max-width: 1100px) {
+  .blog-next { position: static; transform: none; margin: 1.5rem auto 0; width: auto; display: flex; align-items: center; gap: .5rem; }
+  .blog-next:hover { transform: translateX(4px); }
+  .blog-next-label { display: inline; font-weight: 500; }
+}
