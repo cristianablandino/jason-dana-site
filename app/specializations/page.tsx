@@ -21,6 +21,7 @@ export default function Specializations() {
       <PageHero
         title="Specializations"
         image={images.specializationsHero}
+        imagePosition="75% 50%"
         text="Although the primary modalities I use are transdiagnostic and work with a variety of mental health diagnoses and populations, here are a few of the areas of focus I’ve been developing some specialization in over my career so far."
       />
 
