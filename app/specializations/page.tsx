@@ -25,7 +25,7 @@ export default function Specializations() {
       />
 
       <section className="wrap feature-row">
-        <img className="rounded" src={images.youngAdults} alt="A smiling young woman with her arms crossed" />
+        <img className="rounded" src={images.youngAdults} alt="A smiling young woman" />
         <div>
           <h2>Young Adults</h2>
           <p>
@@ -43,11 +43,11 @@ export default function Specializations() {
           </p>
           <Buttons />
         </div>
-        <img className="rounded" src={images.anxiety} alt="A client and therapist in conversation" />
+        <img className="rounded" src={images.anxiety} alt="Close-up of a person's clasped hands" />
       </section>
 
       <section className="wrap feature-row">
-        <img className="rounded" src={images.depression} alt="A young woman sitting with her arms around her knees" />
+        <img className="rounded" src={images.depression} alt="A young man sitting outdoors in profile" />
         <div>
           <h2>Depression</h2>
           <p>
