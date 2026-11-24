@@ -6,7 +6,7 @@ export const images = {
   specializationsHero: "/images/young.jpg",
   gettingStartedHero: "/images/door.jpg",
   approachHero: "/images/books.jpg",
-  aboutPortrait: "/images/portrait.svg",
+  aboutPortrait: "/images/jason-portrait.jpg",
   youngAdults: "/images/girl.jpg",
   anxiety: "/images/anxiety.jpg",
   depression: "/images/depression.jpg",
