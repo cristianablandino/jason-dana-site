@@ -20,7 +20,7 @@ export default function About() {
   <a href="getting-started#contact" className="btn btn-primary">Schedule a free consultation</a>
 </div>
         </div>
-        <img className="rounded" src={images.aboutPortrait} alt="Jason Dana smiling at a desk" />
+        <img className="rounded" src={images.aboutPortrait} alt="Jason Dana portrait" />
       </section>
 
       <ContactSection />
